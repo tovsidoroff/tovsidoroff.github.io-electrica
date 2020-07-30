@@ -1,0 +1,345 @@
+@media(max-width: 1180px){
+    .container{
+        padding: 0;
+    }
+    .nav{
+        display: none;
+    }
+    .descr{
+        margin-top: 60px;
+    }
+    .burgermenu{
+        display: block;
+    }
+    .menu__search{
+        display: flex;
+        justify-content: flex-end;
+        width: 160px;
+        padding-right: 30px;
+        margin-top: 6px;
+    }
+    .menu__search2{
+        display: block;
+    }
+    .number{
+        justify-content: center;
+    }
+    .number__wrapper{
+        max-width: 550px;
+    }
+    .subheader{
+        display: none;
+    }
+    .info__inner{
+        width: 98%;
+    }
+    .textarea{
+        display: none;
+    }
+    .textarea__mobile{
+        display: block;
+        margin: 0;
+    }
+    .request {
+        min-height: 730px;
+    }
+    .form {
+        justify-content: center;
+    }
+    .footer__line,
+    .footer__line2 {
+        min-width: 50%;
+    }
+}
+@media(max-width: 990px){
+    .content,
+    .content__mobile {
+        display: flex;
+        margin: 30px auto;
+        min-height: 330px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container{
+        margin: 0 10px;
+    }
+    .electrica {
+        min-width: 98%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .electrica__subheader {
+        justify-content: space-around;
+    }
+    .electrica__link {
+        justify-content: center;
+    }
+    .safety,
+    .safety__mobile {
+        max-width: 47%;
+        margin: 60px 0 0;
+    }
+    .energy,
+    .energy__mobile {
+        max-width: 47%;
+    }
+    .menu__search2 {
+        margin-right: 20px;
+    }
+}
+@media(max-width: 850px){
+    .footer__col1{
+        margin: 0;
+    }
+}
+@media(max-width: 740px){
+    .footer__col2{
+        display: none;
+    }
+    .footer__col3{
+        display: none;
+    }
+    .footer__col1__social{
+        display: block;
+        margin-left: 115px;
+    }
+}
+@media(max-width: 600px){
+    .number__wrapper{
+        display: none;
+    }
+    .menu__search{
+        justify-content: flex-end;
+        width: 230px;
+        padding-right: 30px;
+        margin-top: 6px;
+    }
+    .input{
+        margin: 0;
+        min-width: 90%;
+    }
+    .textarea__mobile{
+        min-width: 90%;
+    }
+    .request__header{
+        font-size: 18px;
+        min-width: 70%;
+    }
+    .request__text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .form input {
+        height: 40px;
+    }
+
+}
+@media(max-width: 480px){    
+    .info__inner{
+    display: none;
+    }
+    .info__mobile{
+        max-width: 280px;
+        padding: 0;
+    }
+    .header{
+        box-shadow: none;
+    }
+    .info{
+        display: none;
+    }
+    .info__inner__mobile{
+        display: block;
+        border: none;
+    }
+    .descr{
+        height: auto;
+        width: 100%;
+        background: none;
+    }
+    .descr__img{
+        display: block;
+        height: 170px;
+        width: 100%;
+    }
+    .container.inner{
+        display: none;
+    }
+    .info__inner__mobile {
+        box-sizing: border-box;
+        max-width: 300px;
+        max-height: 499px;
+        border: none;
+        margin: 17px 10px;
+    }
+    .info__btn {
+        width: 150px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .info__btn a {
+        font-size: 9px;
+        line-height: 15px;
+        padding: 8px 34px;
+    }
+    .info__more__descr {
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 11px;
+        line-height: 24px;
+    }
+    .info__more__arrow {
+        margin-top: 23px;
+        margin-left: 8px;
+    }
+    .footer__line, .footer__line2 {
+        margin-left: 5%;
+    }
+}
+@media(max-width: 420px){
+    .header{
+        height: 30px;
+        box-shadow: inset 0 -1px 0 #eeeeee;
+    }
+    .descr{
+        margin-top: 40px;
+    }
+    .logo__img {
+        max-width: 144px;
+        width: 100%;
+        height: 97%;
+        margin-bottom: 11px;
+    }
+    .descr__img{
+        display: block;
+        height: 127px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .menu__search{
+        justify-content: flex-end;
+        width: 230px;
+        padding-right: 20px;
+        margin-bottom: 15px;
+    }
+    .menu__search2 {
+        margin-right: 10px;
+    }
+    .menu__btn{
+        top: 11px;
+        right: 10px;
+        width: 21px;
+        height: 0px;
+    }
+    .menu__btn > span::before {
+        content: '';
+        top: -7px;
+    }
+      .menu__btn > span::after {
+        content: '';
+        top: 7px;
+    }
+    .info__heading{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .info__text{
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 280px;
+    }
+    .info__upper__heading,
+    .info__multi__heading{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .info__descr{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .energy{
+        display: none;
+    }
+    .safety{
+        display: none;
+    }
+    .content__mobile{
+        display: flex;
+        min-height: 300px;
+    }
+    .energy__mobile{
+        display: block;
+    }
+    .safety__mobile{
+        display: block;
+    }
+    .energy__header{
+        font-size: 18px;
+    }
+    .sindle__header{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .single__descr,
+    .single__descr span,
+    .single__descr2 span,
+    .safety__descr
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .electrica__header{
+        font-size: 18px;
+    }
+    .electrica__text,
+    .electrica__text span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .electrica__subheader__year {
+        min-width: 130px;
+        margin-bottom: 50px;
+    }
+    .info__upper {
+        margin-right: 15px;
+        margin-left: 0;
+        max-width: 115px;
+    }
+    .info__multi{
+        max-width: 120px;
+    }
+    .info__wrapper {
+        margin-top: 20px;
+        max-width: 250px;
+    }
+    .info__inner__mobile{
+        max-height: 260px;
+        margin: 17px 0 0;
+    }
+    .safety__block1 {
+        margin-bottom: 10px;
+    }
+    .footer__col1__inner1 {
+        margin: 0 20px 0 20px;
+    }
+    .footer__col1 a>img{
+        width: 70%;
+        height: 70%;
+    }
+    .footer__col1__list1{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footer__col1__list2{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footer__col1__social {
+        margin-left: 70px;
+    }
+    .footer__end {
+        font-size: 10px;
+        line-height: 14px;
+        margin: 0px 0 20px 50px;
+    }
+}
